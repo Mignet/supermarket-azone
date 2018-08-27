@@ -37,7 +37,7 @@
 					</li>
 					<li>
 						<h2>{{datas.returnCashAmount}}</h2>
-						<p>猎财返现(元)</p>
+						<p>返现(元)</p>
 					</li>
 				</ul>
 			</div>
@@ -168,7 +168,7 @@
 	.section-2-container ul li:nth-child(even) img{
 		width: .2rem;
 		display: block;
-		margin: 0 auto; 
+		margin: 0 auto;
 	}
 	.section-2-container ul li h2{
 		font-size: .36rem;

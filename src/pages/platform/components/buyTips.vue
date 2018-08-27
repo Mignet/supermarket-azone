@@ -7,7 +7,7 @@
 			<p>{{isOneKeyRegister ? '将' : '请'}}用此手机号码注册购买<br />{{mobile | hideMobile}}</p>
 			<button @click.stop='buyProduct'>{{isOneKeyRegister ? '绑定购买' : '去注册购买'}}</button>
 			<h3>* 你的手机号码将与该平台绑定。</h3>
-			<h3>* 平台首次投资才能获得猎财返现。</h3>
+			<h3>* 平台首次投资才能获得返现。</h3>
 			<h3>* 分散投资、选择恰当周期的标的可有效降低风险。</h3>
 		</div>
 		<form method="post" accept-charset="utf-8" style="display: none" ref="buyform">

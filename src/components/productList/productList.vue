@@ -24,7 +24,7 @@
 				</li>
 				<li>
 					<h2>{{item.returnCashAmount}}</h2>
-					<p>猎财返现(元)</p>
+					<p>返现(元)</p>
 				</li>
 			</ul>
 			<div class="border-bottom scale-bottom-1px"></div>

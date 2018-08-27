@@ -57,7 +57,7 @@
 		},
 		methods:{
 			_filter(result){
-				result.desc = `我在${result.investTime.split(' ')[0]}投资${result.platfromName}${result.productDeadLine}天标${result.investAmt}元<span style="color:#fd5f5f;line-height:1.5;">获得额外${result.feeAmt}元猎财返现</span>`
+				result.desc = `我在${result.investTime.split(' ')[0]}投资${result.platfromName}${result.productDeadLine}天标${result.investAmt}元<span style="color:#fd5f5f;line-height:1.5;">获得额外${result.feeAmt}元返现</span>`
 				result.md5Arr = result.investImage.split(',')
 				this.imgArr = result.md5Arr
 				return result

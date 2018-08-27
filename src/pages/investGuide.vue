@@ -39,11 +39,11 @@
 		  	<div class="content">
 			  	<div class="top">
 			  		<h2><span>4</span><span>/5</span></h2>
-			  		<p>完成注册，继续投资或下载APP投资;<span>满足相应的起投金额、起投期限，才能获得猎财返现。</span></p>
+			  		<p>完成注册，继续投资或下载APP投资;<span>满足相应的起投金额、起投期限，才能获得返现。</span></p>
 			  	</div>
 			  	<div class="img-wrap">
 			  		<img src="./../assets/investGuide-4.jpg">
-			  	</div>	
+			  	</div>
 		  	</div>
 		  </swiper-slide>
 		  <swiper-slide>
@@ -61,7 +61,7 @@
 </template>
 <script>
 	import 'swiper/dist/css/swiper.css'
-	
+
 	import { swiper, swiperSlide } from 'vue-awesome-swiper'
 	  export default {
 	    name: 'investGuide',
@@ -125,7 +125,7 @@
 		padding-bottom: .6rem;
 	}
 	.investGuide-container .swiper-container .swiper-slide{
-		 padding-bottom: .6rem; 
+		 padding-bottom: .6rem;
 		width: 6.06rem;
 		height: 11.13rem;
 	}
