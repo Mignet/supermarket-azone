@@ -71,7 +71,7 @@
 						this.$native.action('removeLocalSharedBtn');
 						setTimeout(()=>{
 							var appShareData = {
-							    shareTitle: '推荐猎财严选理财平台-'+this.platformInfo.name+'，最大综合年化'+this.lists[0].maxFeeRatio+'%。', // 分享标题
+							    shareTitle: '推荐貅比特严选理财平台-'+this.platformInfo.name+'，最大综合年化'+this.lists[0].maxFeeRatio+'%。', // 分享标题
 							    shareDesc: '投资'+this.platformInfo.name+'理财产品，享受额外返现。多个投资返现策略选择，赶紧来投资吧!',
 							    shareLink: this.$publicConfig.projectUrl+'platformDetail?orgNumber=' + this.platformInfo.orgNumber,
 							    shareImgurl: 'dfa3e35be331f6ec67566130f67820b9', // 分享图标

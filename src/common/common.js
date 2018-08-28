@@ -1,10 +1,10 @@
 import Vue from 'vue'
 const comm = {
 	setTitle(str){
-		document.title = str || '猎财大师';
+		document.title = str || '貅比特';
 		var iframe = document.createElement('iframe');
 		iframe.style.display = 'none';
-		iframe.setAttribute('src', '/favicon.ico');
+		iframe.setAttribute('src', '/favicon.ico.bak');
 		document.body.appendChild(iframe);
 		iframe.onload = function() {
 		    setTimeout(() => {
@@ -73,31 +73,31 @@ const comm = {
     	}
 	},
 	//转码成base64
-    toBase64(data){  
-        var toBase64Table = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';  
-        var base64Pad = '=';  
-        var result = '';  
-        var length = data.length;  
-        var i;                                                 
-        for (i = 0; i < (length - 2); i += 3) {  
-            result += toBase64Table[data.charCodeAt(i) >> 2];  
-            result += toBase64Table[((data.charCodeAt(i) & 0x03) << 4) + (data.charCodeAt(i + 1) >> 4)];  
-            result += toBase64Table[((data.charCodeAt(i + 1) & 0x0f) << 2) + (data.charCodeAt(i + 2) >> 6)];  
-            result += toBase64Table[data.charCodeAt(i + 2) & 0x3f];  
+    toBase64(data){
+        var toBase64Table = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';
+        var base64Pad = '=';
+        var result = '';
+        var length = data.length;
+        var i;
+        for (i = 0; i < (length - 2); i += 3) {
+            result += toBase64Table[data.charCodeAt(i) >> 2];
+            result += toBase64Table[((data.charCodeAt(i) & 0x03) << 4) + (data.charCodeAt(i + 1) >> 4)];
+            result += toBase64Table[((data.charCodeAt(i + 1) & 0x0f) << 2) + (data.charCodeAt(i + 2) >> 6)];
+            result += toBase64Table[data.charCodeAt(i + 2) & 0x3f];
         }
-        if (length % 3) {  
-            i = length - (length % 3);  
-            result += toBase64Table[data.charCodeAt(i) >> 2];  
-            if ((length % 3) == 2) {  
-                result += toBase64Table[((data.charCodeAt(i) & 0x03) << 4) + (data.charCodeAt(i + 1) >> 4)];  
-                result += toBase64Table[(data.charCodeAt(i + 1) & 0x0f) << 2];  
-                result += base64Pad;  
-            } else {  
-                result += toBase64Table[(data.charCodeAt(i) & 0x03) << 4];  
-                result += base64Pad + base64Pad;  
-            }  
-        }  
-        return result;  
+        if (length % 3) {
+            i = length - (length % 3);
+            result += toBase64Table[data.charCodeAt(i) >> 2];
+            if ((length % 3) == 2) {
+                result += toBase64Table[((data.charCodeAt(i) & 0x03) << 4) + (data.charCodeAt(i + 1) >> 4)];
+                result += toBase64Table[(data.charCodeAt(i + 1) & 0x0f) << 2];
+                result += base64Pad;
+            } else {
+                result += toBase64Table[(data.charCodeAt(i) & 0x03) << 4];
+                result += base64Pad + base64Pad;
+            }
+        }
+        return result;
     },
 }
 

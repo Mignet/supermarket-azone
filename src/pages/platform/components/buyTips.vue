@@ -118,7 +118,7 @@
 			  var self = this;
 			  Vue.popup.confirm({
 			    title:"您已有"+self.platformInfo.name+"帐号",
-			    msg:"通过猎财大师投资不能享受佣金、津贴、红包等奖励，建议您购买其他平台产品",
+			    msg:"通过貅比特投资不能享受佣金、津贴、红包等奖励，建议您购买其他平台产品",
 			    okText:'好的'
 			  })
 			},

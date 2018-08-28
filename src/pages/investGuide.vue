@@ -28,7 +28,7 @@
 		  	<div class="content">
 		  		<div class="top">
 		  			<h2><span>3</span><span>/5</span></h2>
-		  			<p>使用猎财大师注册手机号完成注册;</p>
+		  			<p>使用貅比特注册手机号完成注册;</p>
 		  		</div>
 		  		<div class="img-wrap">
 		  			<img src="./../assets/investGuide-3.jpg">
