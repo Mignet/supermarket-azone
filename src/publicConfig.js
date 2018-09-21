@@ -5,22 +5,22 @@ if(process.env.NODE_ENV === 'production'){
 }
 
 const httpsProtocol = 'http://'
-	
+
 // 后台服务地址
 const serverHost  = {
-    development  : 'premarket.bethye.top/',
+    development  : '10.16.0.128:8888/',
     production : 'market.bethye.top/'
 };
 
 // 图片服务器地址
 const imgHost =  {
-	development :'preimage.bethye.top/',
-	production  :'image.bethye.top/'      
+	development :'image.bethye.top/',
+	production  :'image.bethye.top/'
 };
 
 const projectHost = {
-	development :'predeclare.bethye.top/',
-	production  :'declare.bethye.top/' 
+	development :'10.16.0.128:12003/',
+	production  :'declare.bethye.top/'
 }
 
 // 后台服务链接前缀 https://premarket.bethye.top/

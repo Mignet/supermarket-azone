@@ -40,7 +40,7 @@
         </li>
       </ul>
     </div>
-    <!--<footer v-if="showFooter">对此单有疑问  联系客服&nbsp;<a href="tel:400-888-6987">400-888-6987</a></footer>-->
+    <!--<footer v-if="showFooter">对此单有疑问  联系客服&nbsp;<a href="tel:0755-86725461">0755-86725461</a></footer>-->
   </div>
 </template>
 <script>
