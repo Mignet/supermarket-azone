@@ -97,7 +97,7 @@
 					}
 				}else{
 					// this.show = true;
-					window.location.href = 'https://liecai.bethye.top/pages/download/download.html';
+					window.location.href = 'https://liecai.v5ent.com/pages/download/download.html';
 				}
 			},
 			hideTips(){
